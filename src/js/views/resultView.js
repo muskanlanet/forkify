@@ -18,7 +18,7 @@ class ResultView extends View {
             }">
             <a class="preview__link " href="#${result.id}">
             <figure class="preview__fig">
-                <img src="${result.image}" alt="Test" />
+                <img src="${result.image}" crossorigin alt="Test" />
             </figure>
             <div class="preview__data">
                 <h4 class="preview__title">
